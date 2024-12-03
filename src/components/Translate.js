@@ -1,5 +1,9 @@
 import React, { useEffect } from "react";
 import countries from "../data";
+import SpeechRecognition, {
+  useSpeechRecognition,
+} from "react-speech-recognition";
+
 const Translate = () => {
   useEffect(() => {
     const fromText = document.querySelector(".from-text");
