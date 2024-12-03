@@ -108,7 +108,7 @@ const Translate = () => {
                 <i id="from" className="fas fa-volume-up"></i>
                 <i id="from" className="fas fa-copy"></i>
                 <i id="from" className="fas fa-microphone"></i>
-                <i id="from" className="fas fa-stop"></i>
+                <i id="from" className="fas fa-ban"></i>
               </div>
               <select></select>
             </li>
