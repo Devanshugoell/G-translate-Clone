@@ -26,11 +26,8 @@ const Translate = () => {
     });
 
     exchageIcon.addEventListener("click", () => {
-      console.log("helo");
       let tempText = fromText.value;
       let tempLang = selectTag[0].value;
-      console.log(tempText);
-      console.log(tempLang);
       fromText.value = toText.value;
       toText.value = tempText;
       selectTag[0].value = selectTag[1].value;
@@ -92,13 +89,13 @@ const Translate = () => {
         <div className="wrapper">
           <div className="text-input">
             <textarea
-              spellcheck="false"
+              spellCheck="false"
               className="from-text"
               placeholder="Enter text"
             ></textarea>
             <textarea
-              spellcheck="false"
-              readonly
+              spellCheck="false"
+              readOnly
               disabled
               className="to-text"
               placeholder="Translation"
